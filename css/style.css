@@ -78,21 +78,90 @@ header .navbar {
 
 }
 .steps {
+	padding-bottom: 336px;
+	padding-top: 460px;
 	background: linear-gradient(178.68deg, #4F3963 -2.24%, #764469 31.33%, #5E3E66 76.25%, #2C2142 94.12%);
 }
 
+.steps .col-lg-6:nth-child(2n) {
+	margin-top: 230px;
+	padding-left: 22px;
+
+}
+.steps .col-lg-6:nth-child(2n+1) {
+		margin-bottom: 160px;
+		padding-right: 22px;
+	
+}
 .cart {
+	display: flex;
 	overflow: hidden;
 	padding: 43px 80px 55px 0;
-	margin-left: -18px;
+	
 	box-shadow: 5px 22px 33px rgba(0, 0, 0, 0.25);
 	border-radius: 5px;
 	background: #523A64;
+
+	min-height: 308px;
 }
 
 .cart__number {
-	margin-left: -5px;
+	margin-left: -17px;
+	font-weight: 900;
+	font-size: 96px;
+	line-height: 112px;
+	color: #944B6E;
 }
+.cart__text {
+	margin-left: 22px;
+	margin-top: 44px;
+}
+.cart__title {
+	margin-bottom: 27px;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 28px;
+	color: #F2F2F2;
+}
+
+.cart__subtitle {
+	font-size: 18px;
+	line-height: 150%;
+	color: #F2F2F2;
+
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width : 992px) {
+
+	.steps .col-lg-6:nth-child(2n) {
+		margin-top: 16px;
+		margin-bottom: 16px;
+		padding-right: 10px;
+		padding-left: 10px;
+
+	}
+
+	.steps .col-lg-6:nth-child(2n+1) {
+		margin-top: 16px;
+		margin-bottom: 16px;		
+		padding-right: 10px;
+		padding-left: 10px;
+
+	}
+
+
+}
+
+
+
 /*
 header {
 	background: url(/img/bg_sky.jpg) no-repeat center;
