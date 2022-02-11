@@ -86,7 +86,7 @@ header .navbar {
 .main-section-top {
 	height: 100vh;
 
-	background: url(../img/main_bg.png) center top no-repeat,
+	background: url(../img/main_bg.png) 50% 10% no-repeat,
 	 url(../img/main_bot_bg_left.png) left bottom no-repeat,
 	 url(../img/main_bot_bg_right.png) right bottom no-repeat,
 		linear-gradient(252.43deg, #D45B78 0.01%, #4B3862 101.01%);
@@ -97,7 +97,7 @@ header .navbar {
 	font-weight: bold;
 	font-size: 64px;
 	line-height: 75px;
-	margin-top: 51%;
+	margin-top: 53vh;
 	margin-bottom: 37px;
 
 }
