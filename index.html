@@ -8,36 +8,11 @@
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
 	<link href="fonts/font.css" rel="stylesheet">
-	<title>cthulhu</title>
+	<title>Calmar</title>
 </head>
 
 <body>
-	<!--
-<header>
-			<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top ">
-				<div class="container justify-content-around">
-					<a class="navbar-brand" href="#">
-					<img class="logo" src="img/logo.png" alt="logo">
-					</a>
-					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-						aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon"></span>
-					</button>
-					<div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-						<ul class="navbar-nav">
-						
-							<li class="nav-item">
-								<a class="nav-link" href="#">Вход</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#">Регистрация</a>
-							</li>
-					
-						</ul>
-					</div>
-					
-			</nav>
-</header>-->
+
 	<section class="main-section-top container-fluid">
 		<div class="container">
 			<nav class="navbar navbar-expand-lg navbar-light fixed-top ">
@@ -83,6 +58,7 @@
 	</section>
 	<section class="steps">
 		<div class="container">
+			<div class="steps-title">Как работает виджет<br> обратного звонка </div>
 			<div class="row">
 				<div class="col-12 col-lg-6">
 					<div class="cart">
@@ -138,13 +114,25 @@
 			<div class="video-title">Посмотрите видео <br> как работает виджет</div>
 		</div>
 	</section>
-	<video width="100%" height="668" controls="controls" poster="video/duel.jpg">
+
+	<div width="100%" height="100%" controls="controls" class="video">
+		<img class="video__img" src="img/video.png">
+	<svg  class="video__play-icon" viewBox="0 0 252 252" fill="none"
+		xmlns="http://www.w3.org/2000/svg">
+		<path
+			d="M192.436 121.163C195.786 123.084 195.787 127.916 192.436 129.837L96.4873 184.859C93.154 186.771 89 184.364 89 180.522L89 70.4782C89 66.6357 93.154 64.2292 96.4873 66.1407L192.436 121.163Z"
+			fill="#C4C4C4" />
+		<circle cx="126" cy="126" r="121" stroke="#C4C4C4" stroke-width="10" />
+	</svg>
+
+	</div>
+	<!--<video width="100%" height="668" controls="controls" poster="video/duel.jpg">
 		<source src="video/duel.ogv" type='video/ogg; codecs="theora, vorbis"'>
 		<source src="video/duel.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
 		<source src="video/duel.webm" type='video/webm; codecs="vp8, vorbis"'>
 		Тег video не поддерживается вашим браузером.
 		<a href="video/duel.mp4">Скачайте видео</a>.
-	</video>
+	</video>--->
 
 	<section class="sertificats">
 		<div class="container">
