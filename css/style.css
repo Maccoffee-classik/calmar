@@ -80,7 +80,7 @@ header .navbar {
 
 
 .container {
-	max-width: 1520px;
+	max-width: 1520v;
 }
 
 .main-section-top {
@@ -400,7 +400,7 @@ header .navbar {
 
 	.steps {
 	
-		background-size: 0%, 0%, 0%, 0%, 100%;
+		background-size: 0%, 0%, 0%, 0%, 0%, 100%;
 	}
 	.cart {
 		padding-top: 15px;
