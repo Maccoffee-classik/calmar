@@ -546,6 +546,19 @@ header .navbar {
 
 }
 
+@media only screen and (max-width : 570px) {
 
+.main-section-top__title {
+	
+	line-height: 5vh;
+}
+
+	button.button_top {
+	
+		width: 250px;
+		
+		padding: 9px 40px;
+	}
+}
 
 
