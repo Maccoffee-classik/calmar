@@ -369,7 +369,7 @@ header .navbar {
 
 	}
 	.main-section-top {
-		background: url(../img/main_bg.png) 50% 30% no-repeat,
+		background: url(../img/main_bg.png) 50% 18% no-repeat,
 		 url(../img/main_bot_bg_left.png) left bottom no-repeat,
 		 url(../img/main_bot_bg_right.png) right bottom no-repeat,
 		linear-gradient(252.43deg, #D45B78 0.01%, #4B3862 101.01%);
@@ -450,6 +450,8 @@ header .navbar {
 
 
 	.sertificats {
+		padding-top: 85px;
+		padding-bottom: 320px;
 		
 		background:url(../img/footer_top_bg.png) top right no-repeat,
 		url(../img/footer_bot_bg2.png) 86% 85% no-repeat,
