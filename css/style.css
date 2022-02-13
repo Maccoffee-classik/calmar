@@ -1,5 +1,4 @@
 * {
-
 	box-sizing: border-box;
 }
 
@@ -12,11 +11,10 @@ body {
 	font-family: Roboto;
 	color: #FCFCFC;
 }
-
+/*Главный экран*/
 .navbar-collapse {
 	flex-grow: 0;
 }
-
 .nav.navbar-nav {
 	display: flex;
 	justify-content: center;
@@ -25,16 +23,13 @@ body {
 .navbar-brand {
 	padding-top: 0.31rem;	
 }
-
 .navbar-light .navbar-nav .nav-link {
 	color: #FCFCFC;
 	font-size: 18px;
 	line-height: 21px;
-	
-}
+	}
 .navbar-light .navbar-nav .nav-link.registration {
 	border: 2px solid #FFFFFF;
-	
 	border-radius: 5px;
 	padding: 10px 38px;
 }
@@ -45,29 +40,22 @@ body {
 	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
 }
 .navbar-light .navbar-nav .nav-link:hover {
-    
-    color: #FFD9D9;
+	color: #FFD9D9;
 }
 .navbar-light .navbar-nav .nav-link.registration:hover {
 	border: 2px solid #FFD9D9;
 	color: #FFD9D9;
 }
-
 .navbar-light .show .navbar-nav .nav-link {
 	border: 2px solid #FFFFFF;
-	
 	border-radius: 5px;
-	padding: 10px 38px;
-	
-	
+	padding: 10px 38px;	
 }
 .navbar-light .show .navbar-nav .nav-item{
-
-width: 100%;
-margin-bottom: 10px;
-margin-left: 0;
-margin-right: 0;
-
+	width: 100%;
+	margin-bottom: 10px;
+	margin-left: 0;
+	margin-right: 0;
 }
 .fixed-top {
 	position: absolute;
@@ -76,42 +64,25 @@ margin-right: 0;
 	left: 0;
 	z-index: 1030;
 }
-
-/*
-header .navbar {
-	background-color: #ffffff !important;
-	padding: 0 !important;
-}
-*/
 .nav-item {
 	margin-left: 24px;
 	margin-right: 24px;
 }
-
-
-.container {
-	max-width: 1520v;
-}
-
 .main-section-top {
 	height: 100vh;
-
 	background: url(../img/main_bg.png) center top no-repeat,
 	 url(../img/main_bot_bg_left.png) left bottom no-repeat,
 	 url(../img/main_bot_bg_right.png) right bottom no-repeat,
 		linear-gradient(252.43deg, #D45B78 0.01%, #4B3862 101.01%);
 	background-size: 57vw, 12%, 12%, 100%;
 }
-
 .main-section-top__title {
 	font-weight: bold;
 	font-size: 64px;
 	line-height: 75px;
 	margin-top: 53vh;
 	margin-bottom: 2vh;
-
 }
-
 .main-section-top__subtitle {
 	margin: 0 auto;
 	font-size: 24px;
@@ -119,20 +90,15 @@ header .navbar {
 	color: #F2F2F2;
 	margin-bottom: 4vh;
 	max-width: 961px;
-
 }
-
 .button {
-
 	color: #FFFFFF;
-	border: none;
-	
+	border: none;	
 	border-radius: 5px;
 	padding: 16px 55px;
 	font-size: 36px;
 	line-height: 42px;
 }
-
 .button_top {
 	background: #D75C78;
 	display: flex;
@@ -141,28 +107,25 @@ header .navbar {
 	height: 75px;
 	filter:drop-shadow(0px 17px 32px rgba(0, 0, 0, 0.25));
 	margin-bottom: 84px;
-
 }
 .button_top:hover {
 	background: #C83E5D;
-
-
 }
 .button_bot {
 	background-color: transparent;
 	width: 100%;
 	border: 5px solid #FFFFFF
 }
+/*Главный экран*/
+/*Как работает виджет главного окна и заголовок названия видео*/
 .steps-title {
 	font-size: 64px;
 	font-weight: 700;
 	font-size: 64px;
 	line-height: 150%;
 	padding-bottom: 70px;
-
 }
-.steps {
-	
+.steps {	
 	padding-top: 200px;
 	background: url(../img/steps_aqualung_bg.png) 90% 10% no-repeat,
 	url(../img/steps_aqualung_bg2.png) 20% 80% no-repeat,
@@ -172,44 +135,23 @@ header .navbar {
 	linear-gradient(178.68deg, #4F3963 -2.24%, #764469 31.33%, #5E3E66 76.25%, #2C2142 94.12%);
 	background-size: 30%,	30%, 5%, 4%, 13%,	100%;
 }
-
-.sertificats {
-	padding-top: 330px;
-	padding-bottom: 538px;
-
-	background:
-		url(../img/footer_top_bg.png) top right no-repeat,
-		url(../img/footer_bot_bg2.png) 0 74% no-repeat,
-		url(../img/footer_bg.png) bottom no-repeat,
-		linear-gradient(178.68deg, #4F3963 -2.24%, #764469 31.33%, #5E3E66 76.25%, #2C2142 94.12%);
-
-	background-size: 18%, 18%, 100%, 100%;
-}
-
 .steps .col-lg-6:nth-child(2n) {
 	margin-top: 230px;
 	padding-left: 22px;
-
 }
-
 .steps .col-lg-6:nth-child(2n+1) {
 	margin-bottom: 160px;
 	padding-right: 22px;
-
 }
-
 .cart {
 	display: flex;
 	overflow: hidden;
 	padding: 43px 80px 55px 0;
-
 	box-shadow: 5px 22px 33px rgba(0, 0, 0, 0.25);
 	border-radius: 5px;
 	background: #523A64;
-
 	min-height: 308px;
 }
-
 .cart__number {
 	margin-left: -17px;
 	font-weight: 900;
@@ -217,12 +159,10 @@ header .navbar {
 	line-height: 112px;
 	color: #944B6E;
 }
-
 .cart__text {
 	margin-left: 22px;
 	margin-top: 44px;
 }
-
 .cart__title {
 	margin-bottom: 27px;
 	font-weight: bold;
@@ -230,12 +170,10 @@ header .navbar {
 	line-height: 28px;
 	color: #F2F2F2;
 }
-
 .cart__subtitle {
 	font-size: 18px;
 	line-height: 150%;
 	color: #F2F2F2;
-
 }
 .video-title {
 	max-width: 652px;
@@ -244,32 +182,52 @@ header .navbar {
 	line-height: 150%;
 	padding-bottom: 70px;
 	margin-top: 336px;
-
 }
-
-
-
+/*Как работает виджет главного окна и заголовок названия видео*/
+/*Видео*/
+.video {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.video__play-icon {
+	max-width: 252px;
+	max-height: 252px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+/*Видео*/
+/*Сертификаты*/
 .sertificats {
 	padding-top: 330px;
 	padding-bottom: 538px;
-
+	background:
+		url(../img/footer_top_bg.png) top right no-repeat,
+		url(../img/footer_bot_bg2.png) 0 74% no-repeat,
+		url(../img/footer_bg.png) bottom no-repeat,
+		linear-gradient(178.68deg, #4F3963 -2.24%, #764469 31.33%, #5E3E66 76.25%, #2C2142 94.12%);
+	background-size: 18%, 18%, 100%, 100%;
+}
+.sertificats {
+	padding-top: 330px;
+	padding-bottom: 538px;
 	background: 
 	url(../img/footer_top_bg.png) top right no-repeat,
 	url(../img/footer_bot_bg2.png) 0 74% no-repeat,
 	url(../img/footer_bg.png) bottom no-repeat,
 		linear-gradient(178.68deg, #4F3963 -2.24%, #764469 31.33%, #5E3E66 76.25%, #2C2142 94.12%);
-		
 	background-size: 18%, 18%, 100%, 100%;
 }
-
 .sertificat {
 	max-width: 500px;
 	padding: 60px 75px 150px 75px;
 	border-radius: 5px;
 	filter: drop-shadow(1px 63px 100px rgba(0, 0, 0, 0.25));
-
 }
-
 .sertificat.small {
 	max-height: 562px;
 	background: url(../img/sertificat-bg1.png) center/cover no-repeat ;
@@ -284,9 +242,6 @@ header .navbar {
 	line-height: 150%;
 	margin-bottom: 40px;
 }
-
-
-
 .sertificat__text{
 	font-weight: 500;
 	font-size: 22px;
@@ -295,69 +250,16 @@ header .navbar {
 }
 
 
-
-.video-title {
-	max-width: 652px;
-	font-weight: 700;
-	font-size: 64px;
-	line-height: 150%;
-	padding-bottom: 70px;
-	margin-top: 336px;
-}
-
-
-
-	.video {
-		width: 100%;
-		height: 100%;
-		/* чтобы можно было внутри всё разместить через absolute */
-			
-			position: relative;
-	
-
-		
-	}
-
-	.video__img {
-	
-		
-	}
-
-	.video__play-icon {
-		max-width: 252px;
-		max-height:252px;
-		position: absolute;
-		left: 0;
-		right: 0;
-		top: 0;
-		bottom: 0;
-		margin: auto;
-	
-
-
-	}
-
-
-
-
-
 @media only screen and (max-width : 992px) {
-
+/*Медиа до 992 Главный экран*/
 	.navbar-brand {
 		padding-top: 0.31rem;
 	}
 	.logo {
 		width: 50%;
 	}
-
-
 	.navbar {
 		background: transparent;
-
-	}
-	.fixed-top {
-		
-	
 	}
 	.main-section-top__title {
 		font-weight: bold;
@@ -365,7 +267,6 @@ header .navbar {
 		line-height: 75px;
 		margin-top: 51vh;
 		margin-bottom: 30px;
-
 	}
 	.steps-title {
 		text-align: center;
@@ -373,10 +274,8 @@ header .navbar {
 		font-weight: 700;
 		font-size: 24px;
 		line-height: 150%;
-
 		margin-top: 50px;
 		padding-bottom: 40px;
-
 	}
 	.main-section-top {
 		background: url(../img/main_bg.png) 50% 18% no-repeat,
@@ -385,18 +284,11 @@ header .navbar {
 		linear-gradient(252.43deg, #D45B78 0.01%, #4B3862 101.01%);
 	background-size: 85%,	12%,	12%,	100%;
 		}
-
-
-
-
 	.main-section-top__subtitle {
 		margin-bottom: 5vh;
 		font-size: 14px;
 		line-height: 150%;
-	
-
 	}
-
 	.button_top {
 		margin-bottom: 35px;
 		font-size: 24px;
@@ -404,26 +296,21 @@ header .navbar {
 		height: 60px;
 		padding: 9px 64px;
 	}
-
-
+/*Медиа до 992 Главный экран*/
+/*Медиа до 992 Как работает виджет главного окна и заголовок названия видео*/
 	.steps .col-lg-6:nth-child(2n) {
 		margin-top: 16px;
 		margin-bottom: 16px;
 		padding-right: 10px;
 		padding-left: 10px;
-
 	}
-
 	.steps .col-lg-6:nth-child(2n+1) {
 		margin-top: 16px;
 		margin-bottom: 16px;
 		padding-right: 10px;
 		padding-left: 10px;
-
 	}
-
-	.steps {
-	
+	.steps {	
 		background-size: 0%, 0%, 0%, 0%, 0%, 100%;
 	}
 	.cart {
@@ -434,14 +321,11 @@ header .navbar {
 		margin-left: -17px;
 		font-weight: 900;
 		font-size: 64px;
-	
 	}
-
 	.cart__text {
 		margin-left: 4px;
 		margin-top: 24px;
 	}
-
 	.cart__title {
 		margin-bottom: 20px;
 		font-weight: bold;
@@ -449,67 +333,68 @@ header .navbar {
 		line-height: 28px;
 		color: #F2F2F2;
 	}
-
 	.cart__subtitle {
 		font-size: 14px;
-		
-
 	}
-
-
-
-
+/*Медиа до 992 Как работает виджет главного окна и заголовок названия видео*/
+/*Медиа до 992 Видео*/
+	.video-title {
+		text-align: center;
+		max-width: 652px;
+		font-weight: 700;
+		font-size: 24px;
+		line-height: 150%;
+		margin-top: 50px;
+		padding-bottom: 40px;
+	}
+	.video__play-icon {
+		max-width: 100px;
+		max-height: 100px;
+	}
+	.video__img {
+		height: 460px;
+	}
+/*Медиа до 992 Видео*/
+/*Медиа до 992 Сертификаты*/
 	.sertificats {
 		padding-top: 85px;
 		padding-bottom: 320px;
-		
 		background:url(../img/footer_top_bg.png) top right no-repeat,
 		url(../img/footer_bot_bg2.png) 86% 85% no-repeat,
 		url(../img/footer_bg.png) 0% 100% no-repeat,
 		linear-gradient(178.68deg, #4F3963 -2.24%, #764469 31.33%, #5E3E66 76.25%, #2C2142 94.12%);
-		background-size: 0%,
-		18%,
-		250%,
-		100%;
+		background-size: 0%,18%,250%,	100%;
 	}
 	.sertificats .row {
 		margin: 0;
-		
 	}
-
 	.sertificat {
 		text-align: center;
 		max-width: 500px;
 		padding: 70px 50px 110px 50px;
 
 	}
-
 	.sertificat.small {
 		margin-bottom: 37px;
 		max-height: 562px;
 		background: url(../img/sertificat-bg1.png) center/cover no-repeat;
 	}
-
 	.sertificat.big {
 		max-height: 653px;
 		background: url(../img/sertificat-bg2.png) center/cover no-repeat;
 	}
-
 	.setificat__title {
 		font-weight: 700;
 		font-size: 24px;
 		line-height: 150%;
 		margin-bottom: 20px;
 	}
-
-
 	.sertificat__text {
 		font-weight: 500;
 		font-size: 14px;
 		line-height: 150%;
 		margin-bottom: 90px;
 	}
-
 	.button_bot {
 		border: 3px solid #ffffff;
 		max-width: 230px;
@@ -518,47 +403,35 @@ header .navbar {
 		line-height: 28px;
 	}
 
-	.video-title {
-		text-align: center;
-		max-width: 652px;
-		font-weight: 700;
-		font-size: 24px;
-		line-height: 150%;
-
-		margin-top: 50px;
-		padding-bottom: 40px;
-
-	}
-
-	.video__play-icon {
-		max-width: 100px;
-		max-height: 100px;
-	
-
-
-
-	}
-	.video__img {
-		height: 460px;
-	}
-
-
-
 }
 
 @media only screen and (max-width : 570px) {
-
-.main-section-top__title {
-	
+/*Главный экран*/
+.main-section-top__title {	
 	line-height: 5vh;
 }
-
 	button.button_top {
-	
 		width: 250px;
-		
 		padding: 9px 40px;
 	}
+/*Главный экран*/
 }
 
+
+@media (orientation: landscape) and (min-width: 600px) {
+	.main-section-top
+		{	background-size: 60%,	12%,	12%,	100%;	}
+	.main-section-top__title {
+			margin-bottom: 1vh;
+			margin-top: 48vh;
+		}
+		.main-section-top__subtitle {
+			margin-bottom:1vh;
+		}
+	.button_top {
+		height: 60px;
+		
+	}
+
+}
 
