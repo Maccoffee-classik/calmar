@@ -307,6 +307,9 @@ body {
 
 @media only screen and (max-width : 992px) {
 /*Медиа до 992 Главный экран*/
+	.navbar {
+		padding-top: 3.27vh;
+	}
 	.navbar-brand {
 		padding-top: 0.31rem;
 	}
@@ -323,13 +326,16 @@ body {
 		margin-top: 51vh;
 		margin-bottom: 30px;
 	}
+	.steps {
+		padding-top: 100px;
+	}
 	.steps-title {
 		text-align: center;
 		max-width: 652px;
 		font-weight: 700;
 		font-size: 24px;
 		line-height: 150%;
-		margin-top: 50px;
+		margin-top: 0px;
 		padding-bottom: 40px;
 	}
 	.main-section-top {
@@ -340,7 +346,7 @@ body {
 	background-size: 85%,	12%,	12%,	100%;
 		}
 	.main-section-top__subtitle {
-		margin-bottom: 5vh;
+		margin-bottom: 9.17vh;
 		font-size: 14px;
 		line-height: 150%;
 	}
@@ -474,6 +480,7 @@ body {
 
 
 @media (orientation: landscape) and (max-width: 992px) {
+
 	.main-section-top
 		{	
 			background: url(../img/main_bg.png) 50% 10% no-repeat, url(../img/main_bot_bg_left.png) left bottom no-repeat, url(../img/main_bot_bg_right.png) right bottom no-repeat, linear-gradient(252.43deg, #D45B78 0.01%, #4B3862 101.01%);
