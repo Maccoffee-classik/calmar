@@ -7,6 +7,16 @@ img {
 	vertical-align: bottom;
 }
 
+/*Сброс бутстрапа*/
+
+.navbar {
+	padding-top: 6.9vh;
+	
+}
+
+
+
+/*Сброс бутстрапа*/
 body {
 	font-family: Roboto;
 	color: #FCFCFC;
@@ -21,7 +31,7 @@ body {
 	flex-wrap: wrap;
 }
 .navbar-brand {
-	padding-top: 0.31rem;	
+	padding-top: 0;	
 }
 .navbar-light .navbar-nav .nav-link {
 	color: #FCFCFC;
@@ -70,25 +80,25 @@ body {
 }
 .main-section-top {
 	height: 100vh;
-	background: url(../img/main_bg.png) center top no-repeat,
+	background: url(../img/main_bg.png) center top 8.3vh no-repeat,
 	 url(../img/main_bot_bg_left.png) left bottom no-repeat,
 	 url(../img/main_bot_bg_right.png) right bottom no-repeat,
 		linear-gradient(252.43deg, #D45B78 0.01%, #4B3862 101.01%);
-	background-size: 57vw, 12%, 12%, 100%;
+	background-size: 111vh, 12%, 12%, 100%;
 }
 .main-section-top__title {
 	font-weight: bold;
 	font-size: 64px;
 	line-height: 75px;
-	margin-top: 53vh;
-	margin-bottom: 2vh;
+	margin-top: 60vh;
+	margin-bottom: 3.41vh;
 }
 .main-section-top__subtitle {
 	margin: 0 auto;
 	font-size: 24px;
 	line-height: 150%;
 	color: #F2F2F2;
-	margin-bottom: 4vh;
+	margin-bottom: 6.29vh;
 	max-width: 961px;
 }
 .button {
@@ -106,7 +116,7 @@ body {
 	width: 362px;
 	height: 75px;
 	filter:drop-shadow(0px 17px 32px rgba(0, 0, 0, 0.25));
-	margin-bottom: 84px;
+	margin-bottom: 7.78vh;
 }
 .button_top:hover {
 	background: #C83E5D;
@@ -114,14 +124,17 @@ body {
 .button_bot {
 	background-color: transparent;
 	width: 100%;
-	border: 5px solid #FFFFFF
+	border: 3px solid #FFFFFF;
+	margin: 0 auto;
+	display: flex;
+	padding: 0 55px;
+	font-size: 20px;
 }
 /*Главный экран*/
 /*Как работает виджет главного окна и заголовок названия видео*/
 .steps-title {
-	font-size: 64px;
+	font-size: 54px;
 	font-weight: 700;
-	font-size: 64px;
 	line-height: 150%;
 	padding-bottom: 70px;
 }
@@ -150,7 +163,7 @@ body {
 	box-shadow: 5px 22px 33px rgba(0, 0, 0, 0.25);
 	border-radius: 5px;
 	background: #523A64;
-	min-height: 308px;
+	
 }
 .cart__number {
 	margin-left: -17px;
@@ -178,7 +191,7 @@ body {
 .video-title {
 	max-width: 652px;
 	font-weight: 700;
-	font-size: 64px;
+	font-size: 54px;
 	line-height: 150%;
 	padding-bottom: 70px;
 	margin-top: 336px;
@@ -223,13 +236,13 @@ body {
 	background-size: 18%, 18%, 100%, 100%;
 }
 .sertificat {
-	max-width: 500px;
+	max-width: 400px;
 	padding: 60px 75px 150px 75px;
 	border-radius: 5px;
 	filter: drop-shadow(1px 63px 100px rgba(0, 0, 0, 0.25));
 }
 .sertificat.small {
-	max-height: 562px;
+	max-height: 86%;
 	background: url(../img/sertificat-bg1.png) center/cover no-repeat ;
 }
 .sertificat.big {
@@ -238,16 +251,57 @@ body {
 }
 .setificat__title {
 	font-weight: 700;
-	font-size: 40px;
+	font-size: 30px;
 	line-height: 150%;
 	margin-bottom: 40px;
 }
 .sertificat__text{
 	font-weight: 500;
-	font-size: 22px;
+	font-size: 18px;
 	line-height: 150%;
 	margin-bottom: 100px;
 }
+
+
+
+
+
+
+
+@media only screen and (min-width: 1600px) {
+	/*Медиа от 1599 Главный экран*/
+	.container {
+		max-width: 1520px;
+	}
+
+}
+
+
+@media only screen and (min-width: 1200px) and (max-width:1599px) {
+
+	/*Медиа  1200-1599 Главный экран*/
+	.container {
+		max-width: 1120px;
+	}
+
+	section.main-section-top {
+		height: 100vh;
+		background: url(../img/main_bg.png) center top 17vh no-repeat,
+			url(../img/main_bot_bg_left.png) left bottom no-repeat,
+			url(../img/main_bot_bg_right.png) right bottom no-repeat,
+			linear-gradient(252.43deg, #D45B78 0.01%, #4B3862 101.01%);
+		background-size: 90vh,
+			12%,
+			12%,
+			100%;
+	}
+
+	/*Медиа  1200-1599 Главный экран*/
+}
+
+
+
+
 
 
 @media only screen and (max-width : 992px) {
