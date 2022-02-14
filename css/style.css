@@ -133,9 +133,8 @@ body {
 /*Главный экран*/
 /*Как работает виджет главного окна и заголовок названия видео*/
 .steps-title {
-	font-size: 64px;
+	font-size: 54px;
 	font-weight: 700;
-	font-size: 64px;
 	line-height: 150%;
 	padding-bottom: 70px;
 }
@@ -192,7 +191,7 @@ body {
 .video-title {
 	max-width: 652px;
 	font-weight: 700;
-	font-size: 64px;
+	font-size: 54px;
 	line-height: 150%;
 	padding-bottom: 70px;
 	margin-top: 336px;
