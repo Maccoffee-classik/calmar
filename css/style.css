@@ -99,7 +99,7 @@ body {
 }
 .main-section-top__subtitle {
 	margin: 0 auto;
-	font-size: 2.2vh;
+	font-size: 2.8vh;
 	line-height: 150%;
 	color: #F2F2F2;
 	margin-bottom: 6.29vh;
@@ -141,7 +141,7 @@ body {
 /*Главный экран*/
 /*Как работает виджет главного окна и заголовок названия видео*/
 .steps-title {
-	font-size: 54px;
+	font-size: 44px;
 	font-weight: 700;
 	line-height: 150%;
 	padding-bottom: 70px;
@@ -199,7 +199,7 @@ body {
 .video-title {
 	max-width: 652px;
 	font-weight: 700;
-	font-size: 54px;
+	font-size: 44px;
 	line-height: 150%;
 	padding-bottom: 70px;
 	margin-top: 336px;
@@ -293,6 +293,7 @@ body {
 		max-width: 1120px;
 	}
 
+
 	section.main-section-top {
 		height: 100vh;
 		background: url(../img/main_bg.png) center top 17vh no-repeat,
@@ -310,7 +311,12 @@ body {
 
 
 
-
+@media only screen and (max-width: 1200px) {
+	.main-section-top__subtitle {
+		
+		max-width: 861px;
+	}
+}
 
 
 @media only screen and (max-width : 992px) {
@@ -330,7 +336,7 @@ body {
 	}
 	.main-section-top__title {
 		font-weight: bold;
-		font-size: 24px;
+		font-size: 3.14vh;
 		line-height: 75px;
 		margin-top: 51vh;
 		margin-bottom: 30px;
@@ -356,15 +362,17 @@ body {
 		}
 	.main-section-top__subtitle {
 		margin-bottom: 9.17vh;
-		font-size: 14px;
+		font-size: 1.83vh;
 		line-height: 150%;
 	}
 	.button_top {
-		margin-bottom: 35px;
-		font-size: 24px;
-		width: 300px;
-		height: 60px;
-		padding: 9px 64px;
+		margin-bottom: 4.5vh;
+		font-size: 3.14vh;
+		padding-left: 63px;
+		padding-right: 63px;
+		padding-top: 1.2vh;
+		padding-bottom: 1.2vh;
+		
 	}
 /*Медиа до 992 Главный экран*/
 /*Медиа до 992 Как работает виджет главного окна и заголовок названия видео*/
@@ -483,7 +491,7 @@ body {
 	line-height: 5vh;
 }
 	button.button_top {
-		width: 250px;
+		
 		padding: 9px 40px;
 	}
 /*Главный экран*/
@@ -497,14 +505,17 @@ body {
 			background: url(../img/main_bg.png) 50% 10% no-repeat, url(../img/main_bot_bg_left.png) left bottom no-repeat, url(../img/main_bot_bg_right.png) right bottom no-repeat, linear-gradient(252.43deg, #D45B78 0.01%, #4B3862 101.01%);
 			background-size: 100vh,	12%,	12%,	100%;	}
 	.main-section-top__title {
-			margin-bottom: 1vh;
+			margin-bottom: 3vh;
 			margin-top: 48vh;
+			font-size: 6.14vh;
+			line-height: 10vh;
 		}
 		.main-section-top__subtitle {
-			margin-bottom:1vh;
+			margin-bottom:9.17vh;
+			font-size: 2.83vh;
 		}
 	.button_top {
-		height: 60px;
+		
 		
 	}
 
