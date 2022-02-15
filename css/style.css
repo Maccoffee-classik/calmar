@@ -22,6 +22,10 @@ body {
 	color: #FCFCFC;
 }
 /*Главный экран*/
+	.logo {
+		max-width: 10.4vh;
+
+	}
 .navbar-collapse {
 	flex-grow: 0;
 }
@@ -88,14 +92,14 @@ body {
 }
 .main-section-top__title {
 	font-weight: bold;
-	font-size: 64px;
-	line-height: 75px;
+	font-size: 5.9vh;
+	line-height: 6.9vh;
 	margin-top: 60vh;
 	margin-bottom: 3.41vh;
 }
 .main-section-top__subtitle {
 	margin: 0 auto;
-	font-size: 24px;
+	font-size: 2.2vh;
 	line-height: 150%;
 	color: #F2F2F2;
 	margin-bottom: 6.29vh;
@@ -103,7 +107,7 @@ body {
 }
 .button {
 	color: #FFFFFF;
-	border: none;	
+	border: none;
 	border-radius: 5px;
 	padding: 16px 55px;
 	font-size: 36px;
@@ -113,8 +117,12 @@ body {
 	background: #D75C78;
 	display: flex;
 	margin: 0 auto;
-	width: 362px;
-	height: 75px;
+	padding-left: 55px;
+	padding-right: 55px;
+	padding-top: 1.5vh;
+	padding-bottom: 1.5vh;
+	font-size: 3.3vh;
+	
 	filter:drop-shadow(0px 17px 32px rgba(0, 0, 0, 0.25));
 	margin-bottom: 7.78vh;
 }
@@ -133,9 +141,8 @@ body {
 /*Главный экран*/
 /*Как работает виджет главного окна и заголовок названия видео*/
 .steps-title {
-	font-size: 64px;
+	font-size: 54px;
 	font-weight: 700;
-	font-size: 64px;
 	line-height: 150%;
 	padding-bottom: 70px;
 }
@@ -192,7 +199,7 @@ body {
 .video-title {
 	max-width: 652px;
 	font-weight: 700;
-	font-size: 64px;
+	font-size: 54px;
 	line-height: 150%;
 	padding-bottom: 70px;
 	margin-top: 336px;
@@ -238,12 +245,12 @@ body {
 }
 .sertificat {
 	max-width: 400px;
-	padding: 60px 75px 150px 75px;
+	padding: 60px 75px 50px 75px;
 	border-radius: 5px;
 	filter: drop-shadow(1px 63px 100px rgba(0, 0, 0, 0.25));
 }
 .sertificat.small {
-	max-height: 86%;
+	
 	background: url(../img/sertificat-bg1.png) center/cover no-repeat ;
 }
 .sertificat.big {
@@ -257,6 +264,7 @@ body {
 	margin-bottom: 40px;
 }
 .sertificat__text{
+	min-height: 144px;
 	font-weight: 500;
 	font-size: 18px;
 	line-height: 150%;
@@ -314,7 +322,8 @@ body {
 		padding-top: 0.31rem;
 	}
 	.logo {
-		width: 50%;
+
+		width: 100%;
 	}
 	.navbar {
 		background: transparent;
@@ -432,12 +441,13 @@ body {
 	.sertificat {
 		text-align: center;
 		max-width: 500px;
-		padding: 70px 50px 110px 50px;
+		padding: 70px 50px 50px 50px;
 
 	}
+
 	.sertificat.small {
 		margin-bottom: 37px;
-		max-height: 562px;
+		
 		background: url(../img/sertificat-bg1.png) center/cover no-repeat;
 	}
 	.sertificat.big {
@@ -451,6 +461,7 @@ body {
 		margin-bottom: 20px;
 	}
 	.sertificat__text {
+		min-height: 0;
 		font-weight: 500;
 		font-size: 14px;
 		line-height: 150%;
