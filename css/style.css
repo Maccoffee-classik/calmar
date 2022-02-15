@@ -84,11 +84,11 @@ body {
 }
 .main-section-top {
 	height: 100vh;
-	background: url(../img/main_bg.png) center top 8.3vh no-repeat,
+	background: url(../img/main_bg.png) center top 7vh no-repeat,
 	 url(../img/main_bot_bg_left.png) left bottom no-repeat,
 	 url(../img/main_bot_bg_right.png) right bottom no-repeat,
 		linear-gradient(252.43deg, #D45B78 0.01%, #4B3862 101.01%);
-	background-size: 111vh, 12%, 12%, 100%;
+	background-size: 120vh, 12%, 12%, 100%;
 }
 .main-section-top__title {
 	font-weight: bold;
@@ -103,7 +103,7 @@ body {
 	line-height: 150%;
 	color: #F2F2F2;
 	margin-bottom: 6.29vh;
-	max-width: 961px;
+	max-width: 80%;
 }
 .button {
 	color: #FFFFFF;
@@ -119,8 +119,8 @@ body {
 	margin: 0 auto;
 	padding-left: 55px;
 	padding-right: 55px;
-	padding-top: 1.5vh;
-	padding-bottom: 1.5vh;
+	padding-top: 2vh;
+	padding-bottom: 2vh;
 	font-size: 3.3vh;
 	
 	filter:drop-shadow(0px 17px 32px rgba(0, 0, 0, 0.5));
@@ -296,11 +296,11 @@ body {
 
 	section.main-section-top {
 		height: 100vh;
-		background: url(../img/main_bg.png) center top 17vh no-repeat,
+		background: url(../img/main_bg.png) center top 7vh no-repeat,
 			url(../img/main_bot_bg_left.png) left bottom no-repeat,
 			url(../img/main_bot_bg_right.png) right bottom no-repeat,
 			linear-gradient(252.43deg, #D45B78 0.01%, #4B3862 101.01%);
-		background-size: 90vh,
+		background-size: 120vh,
 			12%,
 			12%,
 			100%;
